@@ -1,12 +1,17 @@
 {
   "manifest_version": 2,
   "name": "Auto ZIP Large Attachments",
-  "version": "1.1",
-  "description": "Prompts to zip attachments greater than 3MB on send.",
+  "version": "1.2",
+  "description": "Prompts to zip attachments exceeding a custom size threshold.",
   "permissions": [
     "compose",
-    "messagesRead"
+    "messagesRead",
+    "storage"
   ],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
   "background": {
     "scripts": [
       "jszip.min.js",
