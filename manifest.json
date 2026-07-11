@@ -20,7 +20,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "zip-large-attachments@yourdomain.com",
+      "id": "zip-large-attachments",
       "strict_min_version": "115.0"
     }
   }
