@@ -1,0 +1,1 @@
+# thunderbird-auto-zip-extension
